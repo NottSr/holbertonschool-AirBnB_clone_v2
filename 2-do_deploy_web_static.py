@@ -26,6 +26,7 @@ def do_pack():
     except Exception:
         return None
 
+
 def do_deploy(archive_path):
     """
     Returns True if all operations have been done correctly,
